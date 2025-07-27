@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceSection from '../components/serviceSection'
 
 const Services = () => {
   return (
@@ -20,6 +21,13 @@ const Services = () => {
           </div>
         </div>
       </div>
+        <div className='md:px-30 px-8 pt-4 flex justify-start items-start md:gap-10'>
+          <div>
+            <h1 className='playfair-display font-bold md:text-5xl text-2xl md:pb-10 pb-4'>What I Do</h1>
+            <h3>From understanding your requirements, discussing to my network and delivering the final product, I do everything that falls in between these lines.</h3>
+          </div>
+        </div>
+      <ServiceSection />
     </div>
   )
 }

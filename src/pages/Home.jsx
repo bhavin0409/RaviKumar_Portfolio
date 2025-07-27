@@ -1,6 +1,6 @@
-import { Mail, Mailbox, MailIcon, Phone } from 'lucide-react'
-import React from 'react'
+import { Construction, LaptopMinimalCheck, Mail, MoreHorizontal, PencilRuler, Phone } from 'lucide-react'
 import Contactus from '../components/Contactus'
+import ServiceSection from '../components/serviceSection'
 
 const Home = () => {
   return (
@@ -56,8 +56,21 @@ const Home = () => {
             </p>
           </div>
         </div>
-      <Contactus />
+
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10'>
+          <div>
+            <h1 className='playfair-display font-bold md:text-5xl text-2xl md:pb-10 pb-4'>What I Do</h1>
+            <h3>From understanding your requirements, discussing to my network and delivering the final product, I do everything that falls in between these lines.</h3>
+          </div>
+          <div className='flex justify-center md:justify-end items-end'>
+            <div className='w-20'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path></svg>
+            </div>
+          </div>
+        </div>
+      <ServiceSection />
       </div>
+      <Contactus />
     </>
   )
 }

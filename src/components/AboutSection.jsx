@@ -25,8 +25,8 @@ const AboutSection = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 py-1'>
-                <div className='flex items-center justify-center md:py-10 md:pt-10 pt-3 pb-7'>
-                    <div className='flex items-center justify-center flex-col w-auto h-full py-10 bg-[#01B2B7] md:rounded-xl'>
+                <div className='flex items-center  md:py-10 md:pt-10 pt-3 pb-7'>
+                    <div className='flex items-center justify-start flex-col w-auto h-full py-10 bg-[#01B2B7] md:rounded-xl'>
                         <div className='py-3 text-white md:px-24 px-10'>
                             <p className='barlow-semi-condensed-regular'>Marketing</p>
                             <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
