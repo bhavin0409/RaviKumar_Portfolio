@@ -1,6 +1,8 @@
 import { Construction, LaptopMinimalCheck, Mail, MoreHorizontal, PencilRuler, Phone } from 'lucide-react'
 import Contactus from '../components/Contactus'
 import ServiceSection from '../components/serviceSection'
+import SkillSection from '../components/SkillSection'
+import ExperienceSection from '../components/ExperienceSection'
 
 const Home = () => {
   return (
@@ -11,12 +13,10 @@ const Home = () => {
             <p className='py-2 opacity-45 font-semibold tracking-tight barlow-semi-condensed-regular'>HELLO, MY NAME IS</p>
             <p className='font-bold'>________</p>
           </div>
-
           <div className='md:px-8 pb-10'>
             <h1 className='md:text-6xl text-4xl font-bold playfair-display'>Ravi Prajapati</h1>
             <h2 className='md:text-4xl text-3xl font-bold playfair-display opacity-45 pt-6'>consultant </h2>
           </div>
-
           <div className='md:px-7 md:pt-20 pt-2 flex flex-row gap-4'>
             <Mail className='font-bold text-[#00487F] text-2xl mt-1' />
             <h3 className='text-xl'>ravi@gmail.com</h3>
@@ -29,7 +29,7 @@ const Home = () => {
 
         <div className='flex items-center justify-center md:py-10 py-2 flex-col '>
           <div className='md:w-[440px] md:h-[440px] w-80 h-80 border rounded-full'>
-            <img src="src\assets\public\bg-06-free-img.jpg" alt="" className='rounded-full' />
+            <img src="/Hero_img.png" alt="Hero_img" width={440} height={440} className='md:w-[440px] md:h-[440px] w-80 h-80 rounded-full'/>
           </div>
         </div>
       </div>
@@ -70,7 +70,13 @@ const Home = () => {
         </div>
       <ServiceSection />
       </div>
-      <Contactus />
+      <div className='md:container px-5 grid grid-cols-1 md:grid-cols-2 md:gap-10'>
+        <SkillSection/>
+        <ExperienceSection />
+      </div>
+      {/* <div className='md:container px-5'>
+        <Contactus />
+      </div> */}
     </>
   )
 }

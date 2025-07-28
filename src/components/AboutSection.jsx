@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillSection from './SkillSection'
 
 const AboutSection = () => {
     return (
@@ -25,37 +26,39 @@ const AboutSection = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 py-1'>
-                <div className='flex items-center  md:py-10 md:pt-10 pt-3 pb-7'>
-                    <div className='flex items-center justify-start flex-col w-auto h-full py-10 bg-[#01B2B7] md:rounded-xl'>
-                        <div className='py-3 text-white md:px-24 px-10'>
-                            <p className='barlow-semi-condensed-regular'>Marketing</p>
-                            <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
-                                90%
-                            </span>
-                            <progress value="90" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
-                        </div>
-                        <div className='py-3 text-white md:px-24 px-10'>
-                            <p className='barlow-semi-condensed-regular'>Lead generation</p>
-                            <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
-                                98%
-                            </span>
-                            <progress value="98" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
-                        </div>
-                        <div className='py-3 text-white md:px-24 px-10'>
-                            <p className='barlow-semi-condensed-regular'>Client communication</p>
-                            <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
-                                97%
-                            </span>
-                            <progress value="97" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
-                        </div>
-                    </div>
-                </div>
-
                 <div className='flex flex-col justify-center items-center '>
                     <div className='pb-5 '>
                         <h1 className='md:text-3xl text-2xl text-[#01B2B7] font-bold pb-5 playfair-display'>My Skils</h1>
                         <p className='text-sm barlow-semi-condensed-regular'>I always believe in following rules and keeping the promises I make. I regularly meet new developers, constructors, and consultants in the market, and I have a strong interest in building new contacts and expanding my network.
                         </p>
+                    </div>
+                </div>
+                <div className='md:Container px-5'>
+                    {/* <SkillSection/> */}
+                    <div className='flex items-center  md:py-10 md:pt-10 pt-3 pb-7'>
+                        <div className='flex items-center justify-start flex-col w-auto h-full py-10 bg-[#01B2B7] md:rounded-xl'>
+                            <div className='py-3 text-white md:px-24 px-10'>
+                                <p className='barlow-semi-condensed-regular'>Marketing</p>
+                                <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
+                                    90%
+                                </span>
+                                <progress value="90" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
+                            </div>
+                            <div className='py-3 text-white md:px-24 px-10'>
+                                <p className='barlow-semi-condensed-regular'>Lead generation</p>
+                                <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
+                                    98%
+                                </span>
+                                <progress value="98" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
+                            </div>
+                            <div className='py-3 text-white md:px-24 px-10'>
+                                <p className='barlow-semi-condensed-regular'>Client communication</p>
+                                <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
+                                    97%
+                                </span>
+                                <progress value="97" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

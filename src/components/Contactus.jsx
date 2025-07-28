@@ -12,9 +12,9 @@ const Contactus = () => {
         // }, 1500)
     }
     return (
-        <div className='px-2 grid grid-cols-1 md:grid-cols-2 gap-10 py-10'>
+        <div className='container px-2 grid grid-cols-1 md:grid-cols-2 gap-10 py-10'>
             <div className='flex flex-col justify-start items-center '>
-                <div className='md:px-8 pb-5 '>
+                <div className='pb-5 '>
                     <h1 className='md:text-4xl text-2xl font-extrabold md:px-5 text-start md:pt-14 pb-4 playfair-display'>Send me a message</h1>
                     <h2 className='md:text-lg text-sm font-bold md:px-5 barlow-semi-condensed-regular opacity-45'>Whether you wish to discuss new ideas or have a project for me, simply fill this form and I’ll get back to you soon. </h2>
                 </div>
