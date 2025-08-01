@@ -29,7 +29,7 @@ const About = () => {
         <ExperienceSection/>
       </div>
 
-      <div className='md:container px-5 flex justify-around flex-row'>
+      <div className='md:container px-5 flex justify-around py-10 flex-row'>
           <h1 className='playfair-display font-bold md:text-6xl text-2xl '>Service</h1>
 
           <div className=''>
