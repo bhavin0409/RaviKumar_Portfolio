@@ -47,16 +47,16 @@ const AboutSection = () => {
                             <div className='py-3 text-white md:px-24 px-10'>
                                 <p className='barlow-semi-condensed-regular'>Lead generation</p>
                                 <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
-                                    98%
+                                    100%
                                 </span>
-                                <progress value="98" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
+                                <progress value="100" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
                             </div>
                             <div className='py-3 text-white md:px-24 px-10'>
                                 <p className='barlow-semi-condensed-regular'>Client communication</p>
                                 <span class="text-sm inset-0 flex items-center justify-end text-white font-semibold">
-                                    97%
+                                    100%
                                 </span>
-                                <progress value="97" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
+                                <progress value="100" max="100" className='w-3xs [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-value]:bg-slate-100'></progress>
                             </div>
                         </div>
                     </div>
