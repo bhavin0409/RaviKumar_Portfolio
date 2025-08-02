@@ -1,6 +1,5 @@
 import { Construction, LaptopMinimalCheck, Mail, MoreHorizontal, PencilRuler, Phone } from 'lucide-react'
-import Contactus from '../components/Contactus'
-import ServiceSection from '../components/serviceSection'
+import ServiceSection from '../components/ServiceSection'
 import SkillSection from '../components/SkillSection'
 import ExperienceSection from '../components/ExperienceSection'
 
