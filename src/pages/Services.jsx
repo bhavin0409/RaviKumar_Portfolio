@@ -17,7 +17,7 @@ const Services = () => {
 
         <div className='flex items-start justify-center md:py-10 py-2 flex-col '>
           <div className='md:w-[440px] md:h-[440px] w-80 h-80 border rounded-full'>
-            <img src="/src/assets/public/bg-03-free-img.jpg" alt="" className='rounded-full' />
+            <img src="/bg-05-free-img.jpg" alt="" className='rounded-full' />
           </div>
         </div>
       </div>

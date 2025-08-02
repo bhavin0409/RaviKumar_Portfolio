@@ -36,7 +36,7 @@ const Navbar = () => {
                 <a href='#hero' className='text-xl font-bold text-primary flex items-center'>
                     <span className='relative z-10'>
                         <span className='text-glow text-foreground '>
-                            <img src="src/assets/public/R.png" className='inline-block gap-2.5' height={50} width={50} />
+                            <img src="/R copy.png" className='inline-block gap-2.5' height={50} width={50} />
                         </span>
                         <span className='text-[#00487F]'> Kumar</span>
                     </span>
