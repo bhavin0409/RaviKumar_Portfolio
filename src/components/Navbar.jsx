@@ -33,14 +33,14 @@ const Navbar = () => {
             "py-3 bg-background/80 backdrop-blur-md shadow-xs"
         )}>
             <div className='container flex items-center justify-between'>
-                <a href='#hero' className='text-xl font-bold text-primary flex items-center'>
+                <Link to={"/"} className='text-xl font-bold text-primary flex items-center'>
                     <span className='relative z-10'>
                         <span className='text-glow text-foreground '>
                             <img src="/R copy.png" className='inline-block gap-2.5' height={50} width={50} />
                         </span>
                         <span className='text-[#00487F]'> Kumar</span>
                     </span>
-                </a>
+                </Link>
 
                 {/* Desktop navbar */}
                 <div className='hidden md:flex space-x-8'>

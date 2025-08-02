@@ -3,16 +3,9 @@ import { Send } from 'lucide-react'
 const Contactus = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
-
-        // setTimeout(() => {
-        //     toast({
-        //         title: "Message sent",
-        //         description: "Thank You for your message. I'll get back to you soon."
-        //     })
-        // }, 1500)
     }
     return (
-        <div className='container px-2 grid grid-cols-1 md:grid-cols-2 gap-10 py-10'>
+        <div className='container px-5 grid grid-cols-1 md:grid-cols-2 gap-10 md:px-10 py-10'>
             <div className='flex flex-col justify-start items-center '>
                 <div className='pb-5 '>
                     <h1 className='md:text-4xl text-2xl font-extrabold md:px-5 text-start md:pt-14 pb-4 playfair-display'>Send me a message</h1>

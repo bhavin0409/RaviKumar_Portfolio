@@ -2,6 +2,7 @@ import React from 'react'
 import AboutSection from '../components/AboutSection'
 import SkillSection from '../components/SkillSection'
 import ExperienceSection from '../components/ExperienceSection'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -24,20 +25,22 @@ const About = () => {
         </div>
       </div>
 
-      <AboutSection/>
+      <AboutSection />
       <div className='md:container px-5'>
-        <ExperienceSection/>
+        <ExperienceSection />
       </div>
 
-      <div className='md:container px-5 flex justify-around py-10 flex-row'>
-          <h1 className='playfair-display font-bold md:text-6xl text-2xl '>Service</h1>
+      <div className='md:container px-5 flex justify-center items-center md:justify-around md:flex-row py-10 flex-col'>
+        <h1 className='playfair-display font-bold md:text-6xl text-4xl md:pb-0 pb-4'>Service</h1>
 
-          <div className=''>
-            <div className='w-20'>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path></svg>
-            </div>
+        <div>
+          <div className='w-20'>
+            <Link to={"/services"}>
+              <svg className='hover:border-b-2 hover:border-black' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path></svg>
+            </Link>
           </div>
         </div>
+      </div>
     </div>
   )
 }

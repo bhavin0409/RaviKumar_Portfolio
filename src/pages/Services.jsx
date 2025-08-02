@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom"
 import ServiceSection from "../components/ServiceSection"
-
 
 const Services = () => {
   return (
@@ -28,6 +28,16 @@ const Services = () => {
           </div>
         </div>
       <ServiceSection />
+      <div className='md:container px-5 md:px-10 flex justify-center items-center md:justify-around py-10 md:flex-row flex-col'>
+        <h1 className='playfair-display font-bold md:pb-0 pb-4 md:text-6xl text-4xl '>Contact</h1>
+        <div>
+          <div className='w-20'>
+            <Link to={"/contact"}>
+              <svg className='hover:border-b-2 hover:border-black' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path></svg>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
