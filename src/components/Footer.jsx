@@ -1,11 +1,12 @@
+import { Link2 } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="w-full z-40 bg-[#f8fafc] backdrop-blur-md shadow-xs px-6 md:px-12 lg:px-24 py-12 md:py-16 lg:py-24 flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20">
       <div className="flex flex-col space-y-3 md:space-y-5">
-        <p className="text-lg md:text-xl font-semibold playfair-display">Based in New York, working worldwide.</p>
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold md:border-b-4 playfair-display md:border-black inline-block mt-1">Get in touch</h2>
+        <p className="text-lg md:text-xl font-semibold playfair-display">Based in India, Working Gujarat Level.</p>
+        <Link to={"/contact"} className="text-3xl md:text-5xl lg:text-6xl font-bold md:border-b-4 playfair-display md:border-black inline-block mt-1">Get in touch</Link>
       </div>
 
       <div className='flex flex-col md:flex-row gap-10 md:gap-20 w-full md:w-auto'>
