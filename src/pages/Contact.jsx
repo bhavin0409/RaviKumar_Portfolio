@@ -10,7 +10,7 @@ const Contact = () => {
                     </div>
 
                     <div className='md:px-8 pb-5 '>
-                        <h1 className='md:text-7xl text-4xl font-extrabold md:px-5 md:py-12  playfair-display'>Contact</h1>
+                        <h1 className='md:text-8xl text-4xl font-extrabold md:px-5 md:py-12  playfair-display'>Contact</h1>
                     </div>
                 </div>
 

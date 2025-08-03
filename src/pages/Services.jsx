@@ -29,7 +29,7 @@ const Services = () => {
         </div>
       <ServiceSection />
       <div className='md:container px-5 md:px-10 flex justify-center items-center md:justify-around py-10 md:flex-row flex-col'>
-        <h1 className='playfair-display font-bold md:pb-0 pb-4 md:text-6xl text-4xl '>Contact</h1>
+        <h1 className='playfair-display font-bold md:pb-0 pb-4 md:text-8xl text-4xl '>Contact</h1>
         <div>
           <div className='w-20'>
             <Link to={"/contact"}>

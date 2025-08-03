@@ -16,7 +16,7 @@ const Contactus = () => {
             <div className=' md:py-10 py-2'>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="name" className='block text-sm font-medium mb-3 mt-3'>Your Name</label>
+                        <label htmlFor="name" className='block text-lg font-bold text-gray-500 mb-3 mt-3'>Your Name</label>
                         <input
                             type="text"
                             id='name'
@@ -27,7 +27,7 @@ const Contactus = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="email" className='block text-sm font-medium mb-3 mt-3'>Your Email</label>
+                        <label htmlFor="email" className='block text-lg font-bold text-gray-500 mb-3 mt-3'>Your Email</label>
                         <input
                             type="email"
                             id='email'
@@ -38,7 +38,7 @@ const Contactus = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="message" className='block text-sm font-medium mb-3 mt-3'>Your Message</label>
+                        <label htmlFor="message" className='block text-lg font-bold text-gray-500 mb-3 mt-3'>Your Message</label>
                         <textarea
                             id='message'
                             name='message'
