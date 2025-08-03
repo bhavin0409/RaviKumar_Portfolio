@@ -7,11 +7,13 @@ import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import { Toaster } from 'sonner'
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Toaster position="top-center" />
         <Navbar/>
         <Outlet/>
         <Routes>

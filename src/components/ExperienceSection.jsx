@@ -10,19 +10,19 @@ const ExperienceSection = () => {
       <div className='pb-10'>
         <div className='py-3 md:px-15 px-10'>
           <p className='text-xl md:text-lg text-[#01B2B7] font-medium'>IT Company</p>
-          <span class="text-md inset-0 flex items-center justify-start pt-3">
+          <span class="text-md text-gray-500 inset-0 flex items-center justify-start pt-3">
             Out of my total 8 years of experience, 6 years have been with IT organizations, where I have handled roles in implementation, support, and client relationship/success management.
           </span>
         </div>
         <div className='py-3 md:px-15 px-10'>
           <p className='text-xl md:text-lg text-[#01B2B7] font-medium'>Non-IT Company</p>
-          <span class="text-md inset-0 flex items-center justify-start pt-3">         
+          <span class="text-md text-gray-500 inset-0 flex items-center justify-start pt-3">         
             Out of the total 8 years of experience, 2 years have been with non-IT organizations, where I have worked in insurance, outsourcing, and business development (BDE) roles.
           </span>
         </div>
         <div className='py-3 md:px-15 px-10'>
           <p className='text-xl md:text-lg text-[#01B2B7] font-medium'>Own Consulting Firm</p>
-          <span class="text-md inset-0 flex items-center justify-start pt-3">
+          <span class="text-md text-gray-500 inset-0 flex items-center justify-start pt-3">
             For the past 1 year, alongside my job, I have also been running my own consulting firm as a side business.
           </span>
         </div>

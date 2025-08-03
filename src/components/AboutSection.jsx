@@ -20,7 +20,7 @@ const AboutSection = () => {
                         I am extremely serious and honest when it comes to work. My goal is simple: complete client satisfaction. If something is possible from my side, it's always a "Yes"—and if not, there will always be a clear and valid reason for saying "No." <br />
                         I believe in maintaining clarity at every step of the work process—it's something I truly enjoy and consider a part of my work ethic.
                     </h2>
-                    <p>
+                    <p className='text-gray-500 '>
                         I have dedicated a lot of time to building my firm while continuing my job, and I have always been highly aggressive and committed towards my work. I have also met many individuals who have been successfully running their own businesses and offices for years.Because of my honest and transparent approach to work, I am where I am today. I’ve had the opportunity to work with many well-established consultants and brokers. I take a deep interest in my own work, and the appreciation I’ve received has come as a result of consistent hard work and dedication.
                     </p>
                 </div>
@@ -28,8 +28,8 @@ const AboutSection = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 py-1'>
                 <div className='flex flex-col justify-center items-center '>
                     <div className='pb-5 '>
-                        <h1 className='md:text-5xl text-2xl text-[#01B2B7] font-bold md:pb-15 pb-5 playfair-display'>My Skils</h1>
-                        <p className='md:text-lg text-md barlow-semi-condensed-regular'>I always believe in following rules and keeping the promises I make. I regularly meet new developers, constructors, and consultants in the market, and I have a strong interest in building new contacts and expanding my network.
+                        <h1 className='md:text-5xl text-2xl text-[#01B2B7] font-bold md:pb-15 pb-5 playfair-display'>My Skills</h1>
+                        <p className='md:text-lg text-md barlow-semi-condensed-regular text-gray-500'>I always believe in following rules and keeping the promises I make. I regularly meet new developers, constructors, and consultants in the market, and I have a strong interest in building new contacts and expanding my network.
                         </p>
                     </div>
                 </div>

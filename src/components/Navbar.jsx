@@ -8,10 +8,10 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'About', href: '/about' },
-        { name: 'Services', href: '/services' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'HOME', href: '/' },
+        { name: 'ABOUT', href: '/about' },
+        { name: 'SERVICES', href: '/services' },
+        { name: 'CONTACT', href: '/contact' },
     ]
 
 
@@ -33,14 +33,14 @@ const Navbar = () => {
             "py-3 bg-background/80 backdrop-blur-md shadow-xs"
         )}>
             <div className='container flex items-center justify-between'>
-                <Link to={"/"} className='text-xl font-bold text-primary flex items-center'>
-                    <span className='relative z-10'>
-                        <span className='text-glow text-foreground '>
+                <span className='relative z-10'>
+                    <span className='text-glow text-foreground '>
+                        <Link to={"/"} className='text-xl font-bold text-primary '>
                             <img src="/R copy.png" className='inline-block gap-2.5' height={50} width={50} />
-                        </span>
-                        <span className='text-[#00487F]'> Kumar</span>
+                        </Link>
                     </span>
-                </Link>
+                    <span className='text-[#00487F]'> Kumar</span>
+                </span>
 
                 {/* Desktop navbar */}
                 <div className='hidden md:flex space-x-8'>
