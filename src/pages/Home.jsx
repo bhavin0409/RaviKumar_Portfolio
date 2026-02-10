@@ -70,15 +70,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      <ServiceSection />
+      
       </div>
-      <div className='md:container px-5 grid grid-cols-1 md:grid-cols-2 md:gap-10'>
-        <SkillSection/>
-        <ExperienceSection />
-      </div>
-      {/* <div className='md:container px-5'>
-        <Contactus />
-      </div> */}
+      
     </>
   )
 }
