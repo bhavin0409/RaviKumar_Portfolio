@@ -36,10 +36,9 @@ const Navbar = () => {
                 <span className='relative z-10'>
                     <span className='text-glow text-foreground '>
                         <Link to={"/"} className='text-xl font-bold text-primary '>
-                            <img src="/logo.png" className='inline-block gap-2.5' height={50} width={50} />
+                            <img src="/logo.png" className='inline-block gap-2.5' height={100} width={120} />
                         </Link>
                     </span>
-                    <span className='text-[#00487F]'> Kumar</span>
                 </span>
 
                 {/* Desktop navbar */}
